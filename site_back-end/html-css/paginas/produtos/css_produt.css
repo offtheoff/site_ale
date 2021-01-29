@@ -1,0 +1,33 @@
+/* Parte do Menu*/
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-shadow: 3px 4px 2px #000000;
+    color: ghostwhite;
+    text-decoration-color: chartreuse;
+    font-size: 42px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menu{
+    background: #122212;
+}
+.menu ul li,
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    display: block;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 12px 13px;
+}
